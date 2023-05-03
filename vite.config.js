@@ -30,7 +30,7 @@ export default defineConfig({
   base: '/app/',
   publicPath: '',
   build: {
-    outDir: "app",
+    outDir: './app'
   },
   rollupOutputOptions: {
     output: {
